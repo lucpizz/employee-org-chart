@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import api from '../../components/utils/api';
 import { DataGrid } from '@material-ui/data-grid';
-//import { XGrid } from '@material-ui/x-grid';
 
 export default class GetEmployees extends Component {
   state = {
@@ -13,7 +12,7 @@ export default class GetEmployees extends Component {
     { field: 'firstName', headerName: 'First Name', width: 170 },
     { field: 'lastName', headerName: 'Last Name', width: 180 },
     { field: 'username', headerName: 'Username', width: 150 },
-    { field: 'email', headerName: 'Email', width: 250 },
+    { field: 'email', headerName: 'Email', width: 260 },
     { field: 'location', headerName: 'Location: State', width: 150 },
   ];
 
@@ -38,8 +37,6 @@ export default class GetEmployees extends Component {
         err.message;
       });
   }
-
-  //rows = this.state.employee
 
   render() {
     return (
