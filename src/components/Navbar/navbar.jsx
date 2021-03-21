@@ -1,13 +1,15 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Toolbar, Typography, CssBaseline } from '@material-ui/core';
+//import { styled } from '@material-ui/core/styles';
 
 const Navbar = () => {
   return (
     <>
-      <AppBar position='relative'>
+    <CssBaseline />
+      <AppBar position='relative' style={{ backgroundColor: '#000000' }}>
         <Toolbar>
-          <Typography align='center' variant='h3'>
-            Employee Organization Table
+          <Typography variant='h4'>
+            Employee Directory
           </Typography>
         </Toolbar>
       </AppBar>
