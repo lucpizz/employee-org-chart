@@ -24,7 +24,7 @@ You can use the title bar columns to sort and find employees.
 
 [Link to the deployed application - https://lucpizz.github.io/employee-org-chart/](https://lucpizz.github.io/employee-org-chart/)
 
-!["Application homepage"](./images/employee-org-chart.png)
+!["Application homepage"](./images/employee-org-chart.jpg)
 
 ## Installation
 
