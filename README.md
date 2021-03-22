@@ -5,7 +5,7 @@
 ## Table of Contents
 
 - [Description](#description)
-- [Site Structure](#site-structure)
+- [Screenshot](#screenshot)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -16,50 +16,21 @@
 
 ## Description
 
-This program is a simple and intuitive budget tracker. You input your transactions (deposit, withdrawls, payments, etc.), it stores them, and you can view the dashboard for your stats.
+This program is a simple and intuitive employee listing site to view thier data.
 
-## Site Structure
+## Screenshot
 
-```bash
+You can use the title bar columns to sort and finder employees.
 
-```
-
-### File Descriptions
-
-- .gitignore (ignore files to upload into Github)
-- LICENSE (MIT license)
-- README.md (contains the description of the program and files)
-- models directory
-  - transaction.js (Mongoose Schema)
-- package.json & package-lock.json (Node configuration list program details, scripts, license, and dependencies packages)
-- public directory
-  - db.js (onClick listener for each transaction type)
-  - icons directory (pictures)
-  - index.html (landing html (main webpage) for budget tracker app)
-  - index.js (JavaScript code that initializes the landing page with budget tracker data)
-  - manifest.webmanifest (creates the progressive web apps (PWA))
-  - service-worker.js (sets the applciation architect and cache services)
-  - style.css (adds style, color, and organizes the webpages)
-- routes directory
-  - api.js (JavaScript code for API gets, creates, and deletes user input)
-- server.js (JavaScript code that envokes and establishes the express service
-
----
+!["Application homepage"](./images/employee-org-chart.png)
 
 ## Installation
 
 1. Create this repostiory by using the GitHub forking process onto your computer
 2. Install NPM the Node Project Manager to your program directory
-3. Install dependecies to your program directory (npm install "package name"):
-   - Node
-   - Nodemon
-   - Express
-   - Eslint
-   - Mongoose
-   - Morgan
-   - Dotenv
-4. Start your MongoDB server and connect to localhost.
-5. Run your server "node server.js"
+3. Install dependecies to your program directory (npm install)
+4. Build the App (npm run start)
+5. Run the App (npm start)
 
 ---
 
