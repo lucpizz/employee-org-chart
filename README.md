@@ -14,7 +14,7 @@
 
 ---
 
- Description
+## Description
 
 This program gives a manager a simple, intuitive view and access to non-sensitive employee data.
 
