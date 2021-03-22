@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/employee-org-chart/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/employee-org-chart/static/js/main.8c425056.chunk.js",
+    "main.js.map": "/employee-org-chart/static/js/main.8c425056.chunk.js.map",
+    "runtime-main.js": "/employee-org-chart/static/js/runtime-main.ac392e51.js",
+    "runtime-main.js.map": "/employee-org-chart/static/js/runtime-main.ac392e51.js.map",
+    "static/js/2.389e0bee.chunk.js": "/employee-org-chart/static/js/2.389e0bee.chunk.js",
+    "static/js/2.389e0bee.chunk.js.map": "/employee-org-chart/static/js/2.389e0bee.chunk.js.map",
+    "static/js/3.b5513464.chunk.js": "/employee-org-chart/static/js/3.b5513464.chunk.js",
+    "static/js/3.b5513464.chunk.js.map": "/employee-org-chart/static/js/3.b5513464.chunk.js.map",
+    "index.html": "/employee-org-chart/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/employee-org-chart/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.389e0bee.chunk.js.LICENSE.txt": "/employee-org-chart/static/js/2.389e0bee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac392e51.js",
+    "static/js/2.389e0bee.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.8c425056.chunk.js"
+  ]
+}
