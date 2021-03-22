@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+![GitHub License](https://img.shields.io/badge/MIT-License-informational) ![GitHub License](https://img.shields.io/badge/Node-JavaScript-informational) ![GitHub License](https://img.shields.io/badge/React-Framework-informational) ![GitHub License](https://img.shields.io/badge/Material-UI-CSS Framework-informational) ![GitHub License](https://img.shields.io/badge/JavaScript-Programming_Language-informational)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Budget-Tracker
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Description](#description)
+- [Site Structure](#site-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Questions](#question)
+- [License](#license)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Description
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This program is a simple and intuitive budget tracker. You input your transactions (deposit, withdrawls, payments, etc.), it stores them, and you can view the dashboard for your stats.
 
-### `npm test`
+## Site Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### File Descriptions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- .gitignore (ignore files to upload into Github)
+- LICENSE (MIT license)
+- README.md (contains the description of the program and files)
+- models directory
+  - transaction.js (Mongoose Schema)
+- package.json & package-lock.json (Node configuration list program details, scripts, license, and dependencies packages)
+- public directory
+  - db.js (onClick listener for each transaction type)
+  - icons directory (pictures)
+  - index.html (landing html (main webpage) for budget tracker app)
+  - index.js (JavaScript code that initializes the landing page with budget tracker data)
+  - manifest.webmanifest (creates the progressive web apps (PWA))
+  - service-worker.js (sets the applciation architect and cache services)
+  - style.css (adds style, color, and organizes the webpages)
+- routes directory
+  - api.js (JavaScript code for API gets, creates, and deletes user input)
+- server.js (JavaScript code that envokes and establishes the express service
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Create this repostiory by using the GitHub forking process onto your computer
+2. Install NPM the Node Project Manager to your program directory
+3. Install dependecies to your program directory (npm install "package name"):
+   - Node
+   - Nodemon
+   - Express
+   - Eslint
+   - Mongoose
+   - Morgan
+   - Dotenv
+4. Start your MongoDB server and connect to localhost.
+5. Run your server "node server.js"
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Usage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This program is designed to view and quickly access employee information.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+GitHub Username - lucpizz
 
-### Code Splitting
+Please list your name here if you are contributing to this project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Questions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Please contact me at lucpizz@gmail.com for any questions regarding this program.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## License
 
-### Advanced Configuration
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Copyright (c) 2021 Luca Pizzoferrato
 
-### Deployment
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
