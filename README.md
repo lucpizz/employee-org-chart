@@ -20,7 +20,7 @@ This program is a simple and intuitive employee listing site to view thier data.
 
 ## Screenshot
 
-You can use the title bar columns to sort and finder employees.
+You can use the title bar columns to sort and find employees.
 
 !["Application homepage"](./images/employee-org-chart.png)
 
