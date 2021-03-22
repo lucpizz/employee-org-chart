@@ -1,6 +1,6 @@
 ![GitHub License](https://img.shields.io/badge/MIT-License-informational) ![GitHub License](https://img.shields.io/badge/Node-JavaScript-informational) ![GitHub License](https://img.shields.io/badge/React-Framework-informational) ![GitHub License](https://img.shields.io/badge/Material_UI-CSS_Framework-informational) ![GitHub License](https://img.shields.io/badge/JavaScript-Programming_Language-informational)
 
-# Budget-Tracker
+# Employee-Org-Chart
 
 ## Table of Contents
 
