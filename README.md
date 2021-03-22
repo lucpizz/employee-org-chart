@@ -22,7 +22,7 @@ This program is a simple and intuitive employee listing site to view thier data.
 
 You can use the title bar columns to sort and find employees.
 
-!["Link to deployed application"](https://lucpizz.github.io/employee-org-chart/)
+["Link to deployed application - https://lucpizz.github.io/employee-org-chart/"](https://lucpizz.github.io/employee-org-chart/)
 
 !["Application homepage"](./images/employee-org-chart.png)
 
