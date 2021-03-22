@@ -1,6 +1,6 @@
-![GitHub License](https://img.shields.io/badge/MIT-License-informational) ![GitHub License](https://img.shields.io/badge/Node-JavaScript-informational) ![GitHub License](https://img.shields.io/badge/React-Framework-informational) ![GitHub License](https://img.shields.io/badge/Material_UI-CSS_Framework-informational) ![GitHub License](https://img.shields.io/badge/JavaScript-Programming_Language-informational)
-
 # Employee-Org-Chart
+
+![GitHub License](https://img.shields.io/badge/MIT-License-informational) ![GitHub License](https://img.shields.io/badge/Node-JavaScript-informational) ![GitHub License](https://img.shields.io/badge/React-Framework-informational) ![GitHub License](https://img.shields.io/badge/Material_UI-CSS_Framework-informational) ![GitHub License](https://img.shields.io/badge/JavaScript-Programming_Language-informational)
 
 ## Table of Contents
 
@@ -14,23 +14,23 @@
 
 ---
 
-## Description
+ Description
 
-This program is a simple and intuitive employee listing site to view thier data.
+This program gives a manager a simple, intuitive view and access to non-sensitive employee data.
 
 ## Screenshot
 
 You can use the title bar columns to sort and find employees.
 
-["Link to deployed application - https://lucpizz.github.io/employee-org-chart/"](https://lucpizz.github.io/employee-org-chart/)
+[Link to the deployed application - https://lucpizz.github.io/employee-org-chart/](https://lucpizz.github.io/employee-org-chart/)
 
 !["Application homepage"](./images/employee-org-chart.png)
 
 ## Installation
 
-1. Create this repostiory by using the GitHub forking process onto your computer
+1. Create this repository by using the GitHub forking process on your computer
 2. Install NPM the Node Project Manager to your program directory
-3. Install dependecies to your program directory (npm install)
+3. Install dependencies to your program directory (npm install)
 4. Build the App (npm run start)
 5. Run the App (npm start)
 
@@ -38,7 +38,7 @@ You can use the title bar columns to sort and find employees.
 
 ## Usage
 
-This program is designed to view and quickly access employee information.
+This program is designed for viewing and quickly accessing employee information.
 
 ---
 
